@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .showcase{
+    position: sticky;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    z-index: 2;
+} */
+
+.first-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    background-color: rgb(237, 237, 237);
+    height: 10vh;
+
+}
+
+.community{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.community-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+.community-container a{
+    text-decoration: none;
+    border: 2px solid rgb(8, 147, 197);
+    border-radius: 40px;
+    width: 13vw;
+    text-align: center;
+    color: rgb(7, 7, 119);
+    background: linear-gradient(to right, rgb(70, 25, 220) 50%, rgb(255, 255, 255) 50%) ;
+    background-position: right bottom;
+    background-size: 200% 100%;
+    transition: all .3s ease-out;
+    
+}
+.community-container a:hover{
+    
+    
+    background-position: left bottom;
+    color: white;
+    
+    
+}
+
+.second-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 5vh;
+    color: rgb(65, 64, 64);
+    font-size: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bfbdbd;
+    min-width: 160px;
+    border-radius: 10px;
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+  
+  .dropdown:hover{
+    color: rgb(11, 58, 134);
+    cursor: pointer;
+  }
+  
+  .dropdown-second-content:hover{
+    color: rgb(11, 58, 134);
+  }
