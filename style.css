@@ -232,3 +232,47 @@
     font-size: 19px;
     font-weight: bold;
   }
+
+  .services{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px
+  }
+
+  .services-holder{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   
+  }
+  .service{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    gap: 10px;
+    border: 1px solid white;
+    
+  }
+  .service img{
+    width: 30%;
+  }
+  /* .service:hover{
+    background-color: #f2f2f2;
+    border: 1px solid rgb(0, 149, 255);
+    cursor: pointer;
+    
+  } */
+  .service:hover{
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.05);
+
+  }
+.service p ,h3,img{
+  margin-left: 10px;
+}
