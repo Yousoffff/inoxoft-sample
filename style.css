@@ -234,11 +234,13 @@
   }
 
   .services{
-    height: 100vh;
+    background-color: rgb(250, 250, 250);
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:30px
+  
   }
 
   .services-holder{
@@ -254,7 +256,8 @@
     height: 90%;
     width: 90%;
     gap: 10px;
-    border: 1px solid white;
+    border: 1px solid rgb(250, 250, 250) ;
+    
     
   }
   .service img{
@@ -275,4 +278,56 @@
   }
 .service p ,h3,img{
   margin-left: 10px;
+}
+
+.industry-container{
+  display: flex;
+  justify-content: center;
+  height: 65vh;
+}
+
+.industry-holder{
+  background: linear-gradient(to right,rgb(38, 139, 255) 50%,rgb(8, 56, 147));
+  height: 50vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  opacity: 90%;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 10px;
+}
+.industry-holder p{
+  width: 40%;
+}
+.industry-holder h2{
+  font-size: 30px;
+}
+
+.industry-list{
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.industry{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.industry:hover{
+  cursor: pointer;
+
+}
+
+.industry p{
+  margin-left: 0.5vw;
+  width: 100%;
 }
