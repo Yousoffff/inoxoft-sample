@@ -331,3 +331,44 @@
   margin-left: 0.5vw;
   width: 100%;
 }
+
+.clients-holder{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.clients{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.clients img{
+  height: 60%;
+}
+
+.case-study-holder{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+.case-study-holder img{
+  width: 40%;
+  height: 60%;
+}
+.study-content{
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+/* .tag{
+  display: flex;
+  justify-content: space-between;
+} */
