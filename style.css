@@ -87,7 +87,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #bfbdbd;
+    background-color: #f5f5f5;
     min-width: 160px;
     border-radius: 10px;
     padding: 12px 16px;
@@ -351,6 +351,7 @@
 }
 .industry:hover{
   cursor: pointer;
+  transform: scale(1.2);
 
 }
 
@@ -395,6 +396,9 @@
   
   
 }
+
+
+
 /* .tag{
   display: flex;
   justify-content: space-between;
